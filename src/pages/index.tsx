@@ -9,9 +9,9 @@ export default function Home() {
     <main className={styles.main}>
       <div>
         <ul>
-          <li><Link href="en-us">English: <Trans>English</Trans></Link></li>
-          <li><Link href="nl-nl">Dutch: <Trans>Dutch</Trans></Link></li>
-          <li><Link href="pseudo">Pseudo: <Trans>Pseudo</Trans></Link></li>
+          <li><Link href="/" locale="en-us">English: <Trans>English</Trans></Link></li>
+          <li><Link href="/" locale="nl-nl">Dutch: <Trans>Dutch</Trans></Link></li>
+          <li><Link href="/" locale="pseudo">Pseudo: <Trans>Pseudo</Trans></Link></li>
         </ul>
       </div>
     </main>
