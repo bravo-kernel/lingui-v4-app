@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"X-Generator: @lingui/cli\n"
+
+msgid "Dutch"
+msgstr "Nederlands"
+
+msgid "English"
+msgstr "Engels"
+
+msgid "Page Not Found"
+msgstr "Pagina niet gevonden"
+
+msgid "Pseudo"
+msgstr "Pseudo"
