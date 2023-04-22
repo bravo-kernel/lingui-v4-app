@@ -14,11 +14,8 @@ module.exports = {
     {
       path: "src/translations/locales/{locale}",
       include: [
-        // "src/components",
-        // "src/core",
-        // "src/lib",
         "src/pages",
-        // "src/translations/languages.ts",
+        "src/translations/languages.ts",
       ],
     },
   ],
