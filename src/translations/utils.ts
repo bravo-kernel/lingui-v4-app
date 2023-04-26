@@ -15,8 +15,6 @@ export function useLinguiInit(messages: Messages) {
 
   if (!isClient && locale !== i18n.locale) {
     // there is single instance of i18n on the server
-    // note: on the server, we could have an instance of i18n per supported locale
-    // to avoid calling loadAndActivate for (worst case) each request, but right now that's what we do
     i18n.loadAndActivate({ locale, messages });
   }
   if (isClient && i18n.locale === undefined) {
@@ -29,7 +27,7 @@ export function useLinguiInit(messages: Messages) {
     if (localeDidChange) {
       i18n.loadAndActivate({ locale, messages });
     }
-  }, [locale]);
+  }, [locale, messages]);
 
   return i18n;
 }
