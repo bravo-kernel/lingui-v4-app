@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "vitest run",
     "translations:extract": "lingui extract --clean",
     "lint": "next lint"
   },
@@ -27,6 +28,11 @@
     "@lingui/cli": "^4.0.0",
     "@lingui/loader": "^4.0.0",
     "@lingui/macro": "^4.0.0",
-    "@lingui/swc-plugin": "^4.0.0"
+    "@lingui/swc-plugin": "^4.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.0",
+    "jsdom": "^21.1.1",
+    "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.30.1"
   }
 }
